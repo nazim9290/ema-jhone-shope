@@ -1,0 +1,27 @@
+.product-container {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+  margin-right: 5px;
+}
+.product-des {
+  margin-left: 10px;
+}
+.product-title {
+  color: blue;
+}
+.reguler-btn {
+  background-color: goldenrod;
+  width: 150px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.product-body {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.fill {
+  color: rgb(243, 212, 36);
+}
